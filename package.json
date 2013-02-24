@@ -1,0 +1,28 @@
+{
+  "name": "is-little-endian",
+  "version": "0.0.0",
+  "description": "Checks if your system is little endian",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/is-little-endian.git"
+  },
+  "keywords": [
+    "endian",
+    "little",
+    "test",
+    "big",
+    "typed",
+    "array",
+    "buffer",
+    "view",
+    "x86"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "db40a2cbe4f515ee347ab808394e458f9cdf90d2"
+}
