@@ -2,7 +2,7 @@ is-little-endian
 ================
 Checks if your system is little endian or not.  Basically a short cut for:
 
-    !!((new Uint32Array((new Uint8Array([1,0,0,0])).buffer))[0] & 1)
+    ((new Uint32Array((new Uint8Array([1,2,3,4])).buffer))[0] === 0x04030201)
 
 Usage
 =====
