@@ -3,7 +3,7 @@ is-little-endian
 Checks if your system is little endian or not.  Basically a short cut for:
 
 ```JavaScript
-    ((new Uint32Array((new Uint8Array([1,2,3,4])).buffer))[0] === 0x04030201)
+((new Uint32Array((new Uint8Array([1,2,3,4])).buffer))[0] === 0x04030201)
 ```
 
 Usage
@@ -15,11 +15,11 @@ Install using npm:
 And then just use it like this:
 
 ```JavaScript
-    if(require("is-little-endian")) {
-      //Use little endian buffer
-    } else {
-      //Use big endian buffer
-    }
+if(require("is-little-endian")) {
+  // Use little endian buffer
+} else {
+  // Use big endian buffer
+}
 ```
 
 Credits
